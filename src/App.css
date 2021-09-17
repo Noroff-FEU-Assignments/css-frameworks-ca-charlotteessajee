@@ -1,0 +1,39 @@
+:root {
+  --primary-text-color: #e92569;
+  --secondary-text-color: #767676;
+  --tertiary-text-color: #0a0a0a;
+  --navbar-color: #efefef;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: radial-gradient(#f6f6f6, #e5e5e5);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: none;
+}
+
+.activeLink {
+  background: white;
+  border-radius: 10px;
+}
+
+.nav-link {
+  color: var(--primary-text-color);
+}
+
+@media screen and (max-width: 768px) {
+  .activeLink {
+    border-radius: unset;
+  }
+}

@@ -1,0 +1,70 @@
+.linearBackground {
+  background: radial-gradient(#f6f6f6, #e5e5e5);
+}
+
+.heading {
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  color: var(--primary-text-color);
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.pageNavActive span {
+  background: var(--primary-text-color) !important;
+  border: 1px solid var(--primary-text-color) !important;
+}
+
+.pageNav a {
+  border: 1px solid var(--primary-text-color);
+  color: var(--primary-text-color);
+}
+
+.cardImg {
+  border-radius: 10px 10px 0 0;
+}
+
+.cardContainer {
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.cardTitle {
+  font-size: 20px;
+  color: var(--tertiary-text-color);
+}
+
+.cardText {
+  font-size: 18px;
+  color: var(--secondary-text-color);
+}
+
+.button {
+  font-size: 16px;
+  background-color: var(--primary-text-color);
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  width: 100%;
+  border-right: 30px solid var(--secondary-text-color);
+}
+
+.button:hover {
+  background-color: var(--secondary-text-color);
+  border-right: 30px solid var(--primary-text-color);
+}
+
+.paginationBottom {
+  padding-bottom: 10em;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 0 35px;
+  }
+
+  .heading,
+  .pagination {
+    padding-left: 35px;
+  }
+}
