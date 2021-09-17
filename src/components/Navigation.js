@@ -24,7 +24,7 @@ function Navigation() {
         <div className={styles.fullNavbar}>
           <Navbar expand="lg">
             <Container>
-              <Navbar.Brand href="#" className={styles.logo}>
+              <Navbar.Brand href="/home" className={styles.logo}>
                 The YAY Company
               </Navbar.Brand>
               <Navbar.Toggle
